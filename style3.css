@@ -1,0 +1,11 @@
+#box{
+	margin: 40px 20px auto 20px;
+}
+#box{
+	position: relative;
+	background: url("pp.jpg") no-repeat top center;
+	height: 650px;
+	width: auto;
+
+}
+

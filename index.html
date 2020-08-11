@@ -6,15 +6,17 @@
 	<meta name="viewport" content="widht=device-width, initial-scale=1" >
 </head>
 <body >
-<div id="box" class="container">
-	<div id="login_w" >
+	<div class="container">
 		<h2>Admin Login</h2>
-		<input type="text" value="Email">
-		<input type="password" value="password">
-		<input type="Submit" name="Submit" id="sub">
+		<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font"> Email</div>
+			<input type="text" name="">
+			<div class="font font2"> Password</div>
+			<input type="password" name="">
+			<button type="submit">login</button>
+		
+		</form>
 	</div>
-</div>
-</div>
-
+	<script src="valid.js"></script>
 </body>
 </html>

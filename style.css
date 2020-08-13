@@ -9,12 +9,12 @@ h3{
 
 table{
   font-family: Calibri; 
-  color:white; 
+  color:blue; 
   font-size: 11pt; 
   font-style: normal;
   font-weight: bold;
   text-align:; 
-  background: url("pp.jpg") no-repeat top center;
+  background color:white;
   border: 0px;
   border-collapse: collapse
 }

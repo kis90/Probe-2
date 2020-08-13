@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="widht=device-width, initial-scale=1" >
 </head>
+
 <style>
 body {
   background-image: url('ppp.jpg');
@@ -13,37 +14,13 @@ body {
 </style>
  
 <body>
-<h3>Congratulations, you have made the right decision by selecting PROBING TOOL</h3>
+<h3>Please provide below inputs</h3>
 
  
 <table align="center" cellpadding = "10">
  
 <tr>
-<td>Select Current Technology Platform</td>
-<td>
-<select>
-<option value="-1">Technology Platform:</option>
-<option value="1">Platform 1</option>
-<option value="2">Platform 2</option>
-<option value="3">Platform 3</option>
-</select>
-</td>
-</tr>
-
-<tr>
-<td>Select Current Technology Platform</td>
-<td>
-<select>
-<option value="-1">Technology Platform:</option>
-<option value="1">Platform 1</option>
-<option value="2">Platform 2</option>
-<option value="3">Platform 3</option>
-</select>
-</td>
-</tr>
-
-<tr>
-<td>Can we connect an instant database</td>
+<td>Can we connect to ETL Code Repository</td>
 <td>
 Yes <input type="radio" value="Yes" />
 No <input type="radio" value="No" />
@@ -51,7 +28,7 @@ No <input type="radio" value="No" />
 </tr>
 
 <tr>
-<td>Please Provide DB Connection String <br /><br /><br /><br /><br /><br /><br /></td>
+<td>Please Provide ETL Server Details <br /><br /><br /><br /><br /><br /><br /></td>
  
 <td>
 <table>
@@ -71,32 +48,68 @@ No <input type="radio" value="No" />
 </tr>
  
  
-<tr>
-<td></td>
-<td></td>
-<td align="center">(10 char max)</td>
-<td align="center">(upto 2 decimal)</td>
-</tr>
 </table>
  
 </td>
 </tr>
 
- 
+
+<tr>
+<td>Download Template to provide input<br /></td>
+<td>
+ETL Volumentrics
+<input type="radio" value="ETL Volumentrics">
+Workload Details
+<input type="radio" value="Workload Details">
+</td>
+</tr>
 
 
 <tr>
-<td>Download Template to provide input<br />APPLIED FOR</td>
+<td>Can we connect to BI Tool Repository</td>
 <td>
-DM Volumentrics
-<input type="radio" value="DB Volumentrics">
-Schema Details
-<input type="radio" value="Schema details">
-Workload Details
-<input type="radio" name="Course_BSc" value="Workload Details">
+Yes <input type="radio" value="Yes" />
+No <input type="radio" value="No" />
 </td>
 </tr>
+
+<tr>
+<td>Please Provide BI Server Details <br /><br /><br /><br /><br /><br /><br /></td>
  
+<td>
+<table>
+<tr>
+<td>Host Name</td>
+<td><input type="text" name="Host name" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>User Name</td>
+<td><input type="text" name="UserName" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>Password</td>
+<td><input type="text" name="Password" maxlength="30" /></td>
+</tr>
+ 
+ 
+</table>
+ 
+</td>
+</tr>
+
+
+<tr>
+<td>Download Template to provide input<br /></td>
+<td>
+BI Volumentrics
+<input type="radio" value="BI Volumentrics">
+Workload Details
+<input type="radio" value="Workload Details">
+</td>
+</tr>
+
 <tr>
 <td colspan="2" align="center">
 <input type="Previous" value="Previous">
@@ -109,3 +122,7 @@ Workload Details
  
 </body>
 </html>
+
+
+
+

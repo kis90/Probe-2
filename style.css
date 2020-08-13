@@ -3,7 +3,6 @@ h3{
   font-size: 25pt;         
   font-style: normal; 
   font-weight: bold; 
-  background: url("pp.jpg") no-repeat top center;
   text-align: center; 
   text-decoration: underline
 }
@@ -15,7 +14,7 @@ table{
   font-style: normal;
   font-weight: bold;
   text-align:; 
-  background-color: white;
+  background: url("pp.jpg") no-repeat top center;
   border: 0px;
   border-collapse: collapse
 }
